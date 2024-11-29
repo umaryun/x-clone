@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    color: #fff;
+    background-color: #000;
+}
+button{
+    cursor: pointer;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    background: transparent;
+}
+main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    /* z-index: -1; */
+    background-color: hsla(0, 6%, 68%, 0.342);
+    /* filter: contrast(100%) grayscale(100%); */
+}
+.image-icon img{
+    height: 55%;
+    width: 55%;
+    padding: 0;
+    margin: 0;
+}
+.image-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    
+}
+.home-content{
+    height: 100%;
+    width: 50%;
+}
+.header-text{
+    margin-top: 90px;
+    padding: 20px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header-text h1{
+    min-width: 0;
+    font-size: 4.5rem;
+    text-overflow: unset;
+    word-wrap: break-word;
+}
+.header-text h3{
+    margin-top: 40px;
+    font-size: 2rem;
+}
+.text{
+    width: 550px;
+    margin: 0px auto;
+}
+.outer-account-access{
+
+    display: flex;
+    width: 568px;
+    margin: 0 auto;
+
+}
+.account-access{
+    width: 330px;
+    height: 100%;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+.sign-in-with-account{
+    border: 1px solid;
+    padding: 8px;
+    border-radius: 50px;
+    background: #fff;
+    margin: 7px;
+}
+.sign-in-with-account .inner-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    color: #000;
+}
+
+.sign-in-with-account .inner-content img{
+    height: 20px;
+    background: transparent;
+}
+.sign-in-with-account .inner-content span{
+    background: transparent;
+    color: #000;
+    margin-left: 4px;
+    font-weight: 595;
+    
+}
+.span-condition{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    height: 14px;
+}
+.create-account-btn{
+    font-size: 1.1rem;
+    font-weight: bold;
+    background-color: rgb(29, 155, 240);
+    padding: 10px 16px;
+    width: 100%;
+    border-radius: 50px;
+    margin-top: 7px;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+.terms-container span{
+    color: rgb(113, 118, 123);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    
+}
+.terms-container span a{
+    color: rgb(29, 115, 240);
+}
+.dead-space{
+    height: 60px;
+}
+#post-dead-space-span span{
+    font-size: 1.15rem;
+    font-weight: bold;
+    
+}
+.sign-in-account-btn{
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: 1px solid rgb(113, 118, 123);
+    padding: 10px 16px;
+    width: 100%;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 19px;
+    color: rgb(29, 115, 240);
+}
+.sign-in{
+    display: none;
+
+    margin: auto 0;
+    border-radius: 20px;
+    width: 600px;
+    height: 700px;
+} 
+.sign-in-container{
+    /* border: 1px solid red; */
+    width: 330px;
+    margin: 10px auto;
+}
+.sign-in-header-text{
+    font-size: 1.5rem;
+    width: 100%;
+}
+.sign-in-header{
+    border-radius: 20px 20px 0 0; 
+}
+.sign-in-header-icons{
+    width: 100%;
+    display: flex;
+    border-radius: 20px 20px 0 0;
+}
+.sign-in-header-icons span{
+    border-radius: 20px 0 0 0; 
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 9px;
+    padding-left: 15px;
+    padding-top: 2px;
+    text-align: center;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+}
+.sign-in-header-icons-img{
+    border-radius: 0 20px 0 0;
+    width: 100%;
+    /* border: 1px solid orange; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign-in-header-icons-img img{
+    height: 3rem;
+    width: 3rem;
+}
+.sign-in .sign-in-container .account-access .sign-in-with-account{
+    margin-top: 30px;
+}
+.sign-in-username{
+    width: 100%;
+    height: 50px;
+    font-size: 1.1rem;
+    border: 1px solid rgb(113, 118, 123);
+    border-radius: 5px;
+    margin: 10px 0;
+}
+/* .sign-in-username::placeholder{
+    padding-left: 13px; 
+} */
+/* #sign-in-username:active{
+    border: 2px solid red;
+} */
+.sign-in .sign-in-container .account-access .create-account-btn{
+    margin-top: 20px;
+    background-color: #fff;
+    color: #000;
+}
+.sign-in .sign-in-container .account-access .sign-in-account-btn{
+    margin-top: 25px;
+    color: #fff;
+
+}
+.sign-in .sign-in-container .account-access .terms-container span{
+    font-size: 1.1rem;
+}
+
+
+
+input{
+    text-align: start;
+    padding-left: 8px;
+
+}
+
+
+.sign-in-password{
+    display: none;
+
+    margin: auto 0;
+    border-radius: 20px;
+    width: 600px;
+    height: 700px;
+} 
+#sign-in-username-next{
+    background-color: hsla(0, 6%, 80%, 0.342);
+    color: rgb(113, 118, 123);
+}
+.sign-in-password .sign-in-container{
+    width: 80%;
+}
+.sign-in-password .sign-in-container .account-access{
+    width: 100%;
+}
+#create-account-btn-next-password{
+    background-color: #fff;
+    color: #000;
+}
+
+
+
+
+@media screen and (max-width: 770px) {
+    main{
+        display: block;
+        margin: 15px;
+        margin-left: 7%;
+        min-width: 1000px;
+
+    }
+    .image-icon{
+        height: 80px;
+        justify-content: start;
+    }
+    .image-icon img{
+        height: 3rem;
+        width: 3rem;
+    }
+    .home-content{
+        padding-top: 0;
+    }
+    .header-text h1{
+        font-size: 55px;
+        width: 93vw;
+        text-overflow: unset;
+        overflow-wrap: break-word;
+        margin-top: 0;
+    } 
+    .header-text{
+        margin-top: 0;
+    }
+    .text{
+        margin-top: 0;
+    }
+
+}
